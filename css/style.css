@@ -298,13 +298,13 @@ td {
 
 table {
     margin: 0 auto;
+    border-collapse: collapse;
 }
 
 th, td {
     color: black;
     border: 1px solid black; 
     padding: 8px;
-    border-collapse: collapse;
 }
 
 .paidh, .paid {
