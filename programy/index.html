@@ -1,0 +1,116 @@
+        <!DOCTYPE html>
+        <html lang="cs">
+
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>Programové a datové soubory</title>
+            <link rel="icon" href="favicon.png" type="image/png">
+            <link rel="stylesheet" href="../css/style.css">
+        </head>
+
+        <body>
+            <header>     
+        <h1><span class="icon">📁</span> Programové a datové soubory</h1>
+            <nav class="navbar">
+            <a href="../index.html"><span class="icon">🏠</span> Domovská stránka</a>
+            <a href="#soubory"><span class="icon">📁</span> Soubory</a>
+            <a href="../licence/index.html"><span class="icon">🔑</span> Licence</a>
+            <a href="../ware/index.html"><span class="icon">🛠️</span> Utility</a>
+            <a href="../virt/index.html"><span class="icon">💻</span> Virtualizace</a>
+            <a href="../os/index.html"><span class="icon">🖥️</span> Operační systémy</a>
+            <a href="../zakon/index.html"><span class="icon">⚖️</span> Autorský zákon</a>
+        </nav>
+                <button class="mobile-hamburger" aria-label="Menu">
+                    &#9776;
+                </button>
+                <nav id="mobile-menu" class="mobile-menu">
+                    <a href="../index.html">Domovská stránka</a>
+                    <a href="#soubory">Soubory</a>
+                    <a href="../licence/index.html">Licence</a>
+                    <a href="../ware/index.html">Utility</a>
+                    <a href="../virt/index.html">Virtualizace</a>
+                    <a href="../os/index.html">Operační systémy</a>
+                    <a href="../zakon/index.html">Autorský zákon</a>
+                </nav>
+        
+
+            </header>
+            <main>
+
+                <section id="soubory" class="section active">
+                <div class="block" style="max-width: 650px; margin: 0 auto 24px auto;">
+                    <h2>Soubory</h2>
+                    <p>
+                        <strong>Soubor</strong> (<em>file</em>) je množina souvisejících dat
+                        uložených na diskové jednotce. Název souboru je obvykle tvořen jménem
+                        (ve Windows až 254 znaků) a příponou, která naznačuje typ souboru. K
+                        dalším vlastnostem souboru patří jeho velikost, autor (vlastník), datum
+                        vytvoření, datum změny, atributy, přístupová práva apod.
+                    </p>
+                    <h2 id="adresare">Systém adresářů</h2>
+                    <p>
+                        K přehlednější práci se soubory slouží systém adresářů či složek
+                        (directories, folders). Adresáře tvoří na disku typicky hierarchickou
+                        strukturu (tree - strom); základem je tzv. kořenový adresář (root)
+                        označený symbolem „/“ (<a href="https://cs.wikipedia.org/wiki/Unix" target="_blank">Unix</a>, Linux), nebo
+                        „\“ (Windows). Každý adresář může obsahovat soubory i
+                        podadresáře (subdirectories).
+                    </p>
+                    <h2 id="cesta">Cesta</h2>
+                    <p>
+                        Cesta (path) vyjadřuje umístění souboru vždy směrem od nejvyššího
+                        adresáře: <code>C:\XAMPP\mysql\bin\mysql.exe</code>. Pro operace se
+                        soubory využíváme někdy zástupné znaky (wildcards):
+                    </p>
+                    <ul style="text-align:left; max-width: 500px; margin: 0 auto;">
+                        <li>
+                            symbol <mark><code>*</code></mark> nahrazuje v názvu libovolný počet
+                            znaků (např. *.*);
+                        </li>
+                        <li>
+                            symbol <code>?</code> nahrazuje jeden libovolný znak (např. s?s.txt).
+                        </li>
+                    </ul>
+                <figure>
+                    <img class="cmd"src="../img/cmd.png" alt="Wildcards v příkazovém řádku">
+                    <figcaption>Ukázka použití wildcards v příkazovém řádku.</figcaption>
+                </figure>
+                </div>
+                </ul>
+
+                </section>
+
+
+
+            </main>
+            <footer>
+                <div style="text-align: center;">
+                    <a href="https://www.sspu-opava.cz/" target="_blank">
+                        <img class="logo" src="https://www.sspu-opava.cz/static/img/core-img/skola-logo.png" alt="Logo školy">
+                    </a>
+                </div>
+                <div><small class="copy">&copy; Copyright 2026, Martin Stránský, IT1</small></div>
+            </footer>
+
+    <script src="script.js"> </script>
+        <script src="script2.js"> </script>
+        </body>
+
+        </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

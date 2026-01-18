@@ -1,0 +1,88 @@
+    <!DOCTYPE html>
+    <html lang="cs">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Virtualizace a Emulace</title>
+        <link rel="icon" href="favicon.png" type="image/png">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+
+    <body>
+        <header>     
+    <h1><span class="icon">💻</span> Virtualizace a Emulace</h1>
+            <nav class="navbar">
+                <a href="../index.html"><span class="icon">🏠</span> Domovská stránka</a>
+                <a href="../programy/index.html"><span class="icon">📁</span> Soubory</a>
+                <a href="../licence/index.html"><span class="icon">🔑</span> Licence</a>
+                <a href="../ware/index.html"><span class="icon">🛠️</span> Utility</a>
+                <a href="#virt"><span class="icon">💻</span> Virtualizace</a>
+                <a href="../os/index.html"><span class="icon">🖥️</span> Operační systémy</a>
+                <a href="../zakon/index.html"><span class="icon">⚖️</span> Autorský zákon</a>
+        </nav>
+            <button class="mobile-hamburger" aria-label="Menu">
+                &#9776;
+            </button>
+            <nav id="mobile-menu" class="mobile-menu">
+                <a href="../index.html">Domovská stránka</a>
+                <a href="../programy/index.html">Soubory</a>
+                <a href="../licence/index.html">Licence</a>
+                <a href="../ware/index.html">Utility</a>
+                <a href="#virt">Virtualizace</a>
+                <a href="../os/index.html">Operační systémy</a>
+                <a href="../zakon/index.html">Autorský zákon</a>
+            </nav>
+        
+        </header>
+        <main>
+
+            <section id="virt" class="section active">
+            <div class="block" style="max-width: 700px; margin: 0 auto 24px auto;">
+                <h2 id="emulace">Emulace</h2>
+                <p><strong>Emulátor</strong> je program, který umožňuje běh počítačových programů na jiné platformě (architektuře, operačním systému), než pro které byly původně vytvořeny a kterou samy od sebe podporují. Typickým příkladem emulátoru je program umožňující běh videoher známých z herních konzolí na běžném PC pod MS Windows nebo Linuxem. Jiným příkladem může být emulátor <strong>DOSBox</strong>, který emuluje starý operační systém MS DOS v prostředí novějších Windows, případně i na zcela odlišných platformách (Linux).</p>
+                <figure>
+                    <img src="../img/emulace.jpg" alt="Emulator">
+                </figure>
+                <h2>Virtualizace</h2>
+                <p><strong>Virtualizace</strong> označuje v informatice postupy a techniky, které umožňují v počítači přistupovat k dostupným zdrojům jiným způsobem, než jakým fyzicky existují. Virtualizace je možná realizovat na různých úrovních – od celého počítače (tzv. <strong>virtuální stroj</strong>), po jeho jednotlivé hardwarové komponenty (např. virtuální procesory, virtuální paměť), až po konkrétní softwarové prostředí (virtualizace operačního systému).</p>
+                <h2>Virtuální stroj</h2>
+                <p><strong>Virtuální stroj</strong> je speciální software, který dokáže simulovat skutečný počítač (včetně jeho procesoru, paměti, disku, přídavných karet) a umožňuje instalaci OS i dalších programů. Podmínkou virtualizace je výkonný počítač a potřebný software – např. <strong>VirtualBox</strong> (Oracle), <strong>VMware</strong> apod.</p>
+                <p>Virtuální stroje se používají z bezpečnostních důvodů pro běh některých aplikací, aby tyto nemohly ohrozit hostitelský počítač a jeho operační systém. Často jsou využívány i pro testování nových aplikací. Velmi přínosná je virtualizace na úrovni serverů – tzv. konsolidace serverů nabízí dokonalejší využití hardware, oddělený běh síťových aplikací i vyšší bezpečnost dat.</p>
+                <img src="../img/virtualbox.jpg" alt="Virtualizace">                
+            </div>
+</section>
+
+
+
+        </main>
+        <footer>
+            <div style="text-align: center;">
+                <a href="https://www.sspu-opava.cz/" target="_blank">
+                    <img class="logo" src="https://www.sspu-opava.cz/static/img/core-img/skola-logo.png" alt="Logo školy">
+                </a>
+            </div>
+            <div><small class="copy">&copy; Copyright 2026, Martin Stránský, IT1</small></div>
+        </footer>
+
+<script src="script.js"> </script>
+        <script src="script2.js"> </script>
+    </body>
+
+    </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
