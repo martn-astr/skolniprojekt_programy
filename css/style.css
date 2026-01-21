@@ -3,9 +3,6 @@
     display: flex;
 }
 
-
-
-
 .block {
     background: rgba(0,0,0,0.55);
     border-radius: 16px;
@@ -501,8 +498,6 @@ figure{
     width: 100%;
     text-align: left;
 }
-
-
 
 
 
