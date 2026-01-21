@@ -110,6 +110,7 @@ h2 {
 
 h3 {
     font-size: 20px;
+    text-align: left;
 }
 
 p {
@@ -491,4 +492,5 @@ ul li::before {
 figure{
     text-align: center;
 }
+
 
