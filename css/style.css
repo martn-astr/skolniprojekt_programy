@@ -259,8 +259,8 @@ nav a:hover {
 
 .container a {
     display: block;
-    width: auto;
-    height: 90%;
+    width: 95%;
+    height: 44px;
     text-decoration: none;
     color: inherit;
 }
@@ -498,6 +498,7 @@ figure{
     width: 100%;
     text-align: left;
 }
+
 
 
 
