@@ -495,9 +495,13 @@ figure{
     text-align: center;
 }
 
-.block p {
+.block p,
+.container div p {
+    align-self: flex-start;
+    width: 100%;
     text-align: left;
 }
+
 
 
 
