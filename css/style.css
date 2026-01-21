@@ -118,6 +118,7 @@ p {
     font-size: 20px;    
     margin: 20px;
     padding: 15px;
+    text-align: left;
 }
 
 main {
@@ -493,6 +494,7 @@ ul li::before {
 figure{
     text-align: center;
 }
+
 
 
 
