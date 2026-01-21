@@ -25,7 +25,7 @@
     color: #00eaff;
     font-size: 1.15em;
     display: flex;
-    align-items: center;
+    align-items: left;
     gap: 8px;
 }
 
@@ -492,5 +492,6 @@ ul li::before {
 figure{
     text-align: center;
 }
+
 
 
