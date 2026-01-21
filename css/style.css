@@ -25,8 +25,9 @@
     color: #00eaff;
     font-size: 1.15em;
     display: flex;
-    align-items: left;
+    align-items: center;
     gap: 8px;
+    text-align: left;
 }
 
 .mini-btn {
@@ -492,6 +493,7 @@ ul li::before {
 figure{
     text-align: center;
 }
+
 
 
 
